@@ -4,4 +4,6 @@
 
 ### The homework is to clone www.google.com UI using HTML and CSS.
 
-![alt text](https://raw.githubusercontent.com/EmanuelaNimigean/Team1/main/Team1Project/team1ClassDiagram.png)
+### The result is:
+
+![alt text](https://raw.githubusercontent.com/EmanuelaNimigean/FE_Google_Clone/main/Result_Clone.png)
