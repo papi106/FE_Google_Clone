@@ -15,13 +15,14 @@ html {
 
 body {
   display: grid;
-  grid-template-rows: auto 2fr 1fr;
+  grid-template-rows: auto 3fr 1fr;
   font-family: Arial, sans-serif;
   font-size: 1.6rem;
 }
 
 a {
   text-decoration: none;
+  padding: 0 3px;
 }
 
 ul {
@@ -82,7 +83,7 @@ ul {
   width: 100%;
   max-width: 61rem;
   padding: 0 1.2rem;
-  margin: 9.5rem auto 9.5rem auto;
+  margin: 90px auto 90px auto;
 }
 
 .search {
@@ -92,7 +93,7 @@ ul {
   height: 4.4rem;
   border: 1px solid #dfe1e5;
   border-radius: 2.4rem;
-  margin: 3rem 0;
+  margin: 18px 0;
 }
 
 .search:hover {
@@ -111,10 +112,82 @@ ul {
 
 .icon-search {
   width: 2rem;
-  margin-left: 1.3rem;
+  margin-left: 14px;
 }
 
 .icon-mic {
-  margin-right: 1.3rem;
+  margin-right: 14px;
   cursor: pointer;
+}
+
+.icon-keyboard {
+  margin-right: 16px;
+  cursor: pointer;
+  height: 30%;
+  padding-left: 15px;
+}
+
+.linie {
+  border-left: 1px solid #dfe1e5;
+  height: 65%;
+}
+
+.icon-clear {
+  display: flex;
+  margin-right: 16px;
+  height: 35%;
+  color: #70757a;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.buttons {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.buttons:hover {
+  border-radius: 4px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.language-type {
+  padding: 5px;
+}
+
+.lang {
+  color: #1a0dab;
+}
+
+.lang:hover {
+  text-decoration: underline;
 }
