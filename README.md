@@ -6,4 +6,4 @@
 
 ### The result is:
 
-![alt text](https://raw.githubusercontent.com/EmanuelaNimigean/FE_Google_Clone/main/Result_Clone.png)
+![alt text](https://raw.githubusercontent.com/papi106/FE_Google_Clone/main/Result_Clone.png)
