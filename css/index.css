@@ -128,11 +128,6 @@ ul {
   padding-left: 15px;
 }
 
-.linie {
-  border-left: 1px solid #dfe1e5;
-  height: 65%;
-}
-
 .icon-clear {
   display: flex;
   margin-right: 16px;
